@@ -1,6 +1,6 @@
 ## Summary
 
-Following this (tutorial)[https://www.makeschool.com/academy/track/reddit-clone-in-node-js]
+Following this [tutorial](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
 
 
 ## Force-ranked Features:
