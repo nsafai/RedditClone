@@ -1,11 +1,11 @@
-##Summary##
+## Summary
 
-Following this tutorial: https://www.makeschool.com/academy/track/reddit-clone-in-node-js
+Following this (tutorial)[https://www.makeschool.com/academy/track/reddit-clone-in-node-js]
 
 
-##Force-ranked Features:##
+## Force-ranked Features:
 
-*MVP:*
+**MVP:**
 
 Sign up
 
@@ -16,7 +16,7 @@ Create a post
 Show all posts
 
 
-*Features to build afterwards (in order):*
+**Features to build afterwards (in order):**
 
 Associate posts, comments, and votes with their author
 
