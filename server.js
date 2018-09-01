@@ -1,9 +1,12 @@
 //express
 var express = require('express');
 var app = express();
-
+// Port
+const port = process.env.PORT || 3000;
 //middleware
 var exphbs  = require('express-handlebars')
+
+var mongoose = require('mongoose');
 
 //bodyparser
 var bodyParser = require('body-parser')
@@ -12,12 +15,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
-
-// app.use(function (req, res) {
-//   res.setHeader('Content-Type', 'text/plain')
-//   res.write('you posted:\n')
-//   res.end(JSON.stringify(req.body, null, 2))
-// })
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
@@ -31,9 +28,16 @@ app.get('/posts/new', function (req, res) {
     res.render('posts-new')
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log('Website listening on port 3000!');
 });
+
+// Mongoose Connection
+const mongoUri = process.env.MONGODB_URI || "mongodb://localhost:27017/reddit-clone";
+mongoose.connect(
+	mongoUri, { useNewUrlParser: true }
+);
+mongoose.set('debug', true);
 
 // example code for a GET route with placeholder for variable 'name'
 // app.get('/greetings/:name', function (req, res) {
