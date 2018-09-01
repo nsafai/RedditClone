@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.render('home')
 });
 
+app.get('/posts/new', function (req, res) {
+  res.render('posts-new')
+});
+
 app.listen(3000, function () {
   console.log('Website listening on port 3000!');
 });
