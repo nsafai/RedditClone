@@ -1,4 +1,4 @@
-var Post = require('../models/post.js');
+var Post = require('../models/post');
 
 module.exports = (app) => {
 
