@@ -1,0 +1,19 @@
+{
+  "name": "redditclone",
+  "version": "1.0.0",
+  "description": "Following this [tutorial](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsafai/RedditClone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsafai/RedditClone/issues"
+  },
+  "homepage": "https://github.com/nsafai/RedditClone#readme"
+}

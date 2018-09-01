@@ -7,21 +7,15 @@ Following this [tutorial](https://www.makeschool.com/academy/track/reddit-clone-
 
 **MVP:**
 
-- [ ] Sign up
-- [ ] Login
 - [ ] Create a post
 - [ ] Show all posts
-
-
-**Features to build afterwards (in order):**
-
-- [ ] Associate posts, comments, and votes with their author
 - [ ] Comment on posts
-- [ ] Vote up a post
-- [ ] Vote up a comment
-- [ ] Sort posts by # of votes
-- [ ] Make comments on comments
-- [ ] Search
-- [ ] Create subreddit
+- [ ] Create subreddits
 - [ ] Create a post on a subreddit
 - [ ] Show all subreddits
+- [ ] Sign up and Login
+- [ ] Associate posts, comments with their author
+- [ ] Make comments on comments
+- [ ] Vote a post up
+- [ ] Vote a comment up
+- [ ] Sort posts by # of votes
