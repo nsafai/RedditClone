@@ -3,10 +3,8 @@
 Following this [tutorial](https://www.makeschool.com/academy/track/reddit-clone-in-node-js)
 
 
-## Force-ranked Features:
-
-**MVP:**
-
+- [x] Setup server
+- [ ] Install templating engine - Handlebars
 - [ ] Create a post
 - [ ] Show all posts
 - [ ] Comment on posts
