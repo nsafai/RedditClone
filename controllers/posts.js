@@ -16,11 +16,14 @@ module.exports = (app) => {
 
   });
 
+  app.get('/', (req, res) => {
+      Post.find({}).then((posts) => {
+        res.render('posts-index.handlebars', { posts })
+      }).catch((err) => {
+        console.log(err.message);
+      })
+  })
+
+
+
 };
-// module.exports = (app) => {
-//   // CREATE
-//   app.post('/posts/new', (req,res) => {
-//       // if (!req.body) return res.sendStatus(400)
-//       console.log(req.body)
-//   });
-// };
