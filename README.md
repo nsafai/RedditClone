@@ -15,8 +15,8 @@ Following this [tutorial](https://www.makeschool.com/academy/track/reddit-clone-
 - [x] Show all posts
     - [x] Make the root route (/) go to the posts#index route render a posts-index template
     - [x] Style the template and loop over the posts object
-    - [ ] Make route to posts#show route (/posts/:id)
-    - [ ] Style the template and display the post object
+    - [x] Make route to posts#show route (/posts/:id)
+    - [x] Style the template and display the post object
 - [ ] Comment on posts
 - [ ] Create subreddits
 - [ ] Create a post on a subreddit
